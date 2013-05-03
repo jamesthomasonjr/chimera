@@ -1,0 +1,87 @@
+extend layout
+
+block header
+  div.row
+    center
+      h1 Chimera
+      h2 960px 24 column grid framework
+      h3 with additional support for 16 column grids
+      p
+        | Chimera is a fraction-based grid framework that supports 24 column grids for finer control over your layout.
+        br
+        | 16 column grids are similarly supported, along with any simple factors of 24 or 16: 12, 8, 6, 4, 3, and 2.
+        br
+        | Chimera is inspired by the Bootstrap, Skeleton, and Foundation frameworks
+
+block content
+  div.container
+    div.row
+      p
+        center
+          strong The Grid
+    div.row
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-1/24 column") 1
+      div(class="show-grid span-6/24 column") 6
+      div(class="show-grid span-4/24 column") 4
+      div(class="show-grid span-2/24 column") 2
+    div.row
+      div(class="show-grid span-1/16 column") 1
+      div(class="show-grid span-1/16 column") 1
+      div(class="show-grid span-1/16 column") 1
+      div(class="show-grid span-1/16 column") 1
+      div(class="show-grid span-1/16 column") 1
+      div(class="show-grid span-1/16 column") 1
+      div(class="show-grid span-4/16 column") 4
+      div(class="show-grid span-3/16 column") 3
+      div(class="show-grid span-2/16 column") 2
+      div(class="show-grid span-1/16 column") 1
+    div.row
+      div(class="show-grid span-5/8 offset-3/8 column")
+        | span-5/8 offset-3/8
+  div(class="fluid container")
+    div.row
+      p
+        center
+          strong The Fluid Grid
+    div.row
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-1/24 fluid column") 1
+      div(class="show-grid span-6/24 fluid column") 6
+      div(class="show-grid span-4/24 fluid column") 4
+      div(class="show-grid span-2/24 fluid column") 2
+    div.row
+      div(class="show-grid span-1/16 fluid column") 1
+      div(class="show-grid span-1/16 fluid column") 1
+      div(class="show-grid span-1/16 fluid column") 1
+      div(class="show-grid span-1/16 fluid column") 1
+      div(class="show-grid span-1/16 fluid column") 1
+      div(class="show-grid span-1/16 fluid column") 1
+      div(class="show-grid span-4/16 fluid column") 4
+      div(class="show-grid span-3/16 fluid column") 3
+      div(class="show-grid span-2/16 fluid column") 2
+      div(class="show-grid span-1/16 fluid column") 1
+    div.row
+      div(class="show-grid span-5/8 offset-3/8 fluid column")
+        | span-5/8 offset-3/8
+

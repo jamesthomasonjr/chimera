@@ -1,0 +1,360 @@
+/**********************************************
+Chimera Framework
+Inspired by Bootstrap + Skeleton + Foundation
+24-column grid framework
+With additional support for 16-column grids
+**********************************************/
+
+@import "settings"
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px)
+  .container
+    width (main-width * 0.8)
+    .column
+      margin-left (gutter-width * 0.4)
+      margin-right (gutter-width * 0.4)
+
+  /* 1/24 */
+  .span-\31 \2F 24
+    width (main-width / 24 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/16 */
+  .span-\31 \2F 16
+    width (main-width / 16 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/12, 2/24 */
+  .span-\31 \2F 12,
+  .span-\32 \2F 24
+    width (main-width / 12 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/8, 2/16, 3/24 */
+  .span-\31 \2F 8,
+  .span-\32 \2F 16,
+  .span-\33 \2F 24
+    width (main-width / 8 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/6, 2/12, 4/24 */
+  .span-\31 \2F 6,
+  .span-\32 \2F 12,
+  .span-\34 \2F 24
+    width (main-width / 6 * 0.8) - (gutter-width * 0.8)
+
+  /* 3/16 */
+  .span-\33 \2F 16
+    width (main-width * 3/16 * 0.8) - (gutter-width * 0.8)
+
+  /* 5/24 */
+  .span-\35 \2F 24
+    width (main-width * 5/24 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/4, 2/8, 3/12, 4/16, 6/24 */
+  .span-\31 \2F 4,
+  .span-\32 \2F 8,
+  .span-\33 \2F 12,
+  .span-\34 \2F 16,
+  .span-\36 \2F 24
+    width (main-width / 4 * 0.8) - (gutter-width * 0.8)
+
+  /* 7/24 */
+  .span-\37 \2F 24
+    width (main-width * 7/24 * 0.8) - (gutter-width * 0.8)
+
+  /* 5/16 */
+  .span-\35 /2F 16
+    width (main-width * 5/16 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/3, 2/6, 4/12, 8/24 */
+  .span-\31 \2F 3,
+  .span-\32 \2F 6,
+  .span-\34 \2F 12,
+  .span-\38 \2F 24
+    width (main-width / 3 * 0.8) - (gutter-width * 0.8)
+
+  /* 3/8, 6/16, 9/24 */
+  .span-\33 \2F 8,
+  .span-\36 \2F 16,
+  .span-\39 \2F 24
+    width (main-width * 3/8 * 0.8) - (gutter-width * 0.8)
+
+  /* 5/12, 10/24 */
+  .span-\35 \2F 12,
+  .span-\31 \30 \2F 24
+    width (main-width * 5/12 * 0.8) - (gutter-width * 0.8)
+
+  /* 7/16 */
+  .span-\37 \2F 16
+    width (main-width * 7/16 * 0.8) - (gutter-width * 0.8)
+
+  /* 11/24 */
+  .span-\31 \31 \2F 24
+    width (main-width * 11/24 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/2, 2/4, 3/6, 4/8, 6/12, 8/16, 12/24 */
+  .span-\31 \2F 2,
+  .span-\32 \2F 4,
+  .span-\33 \2F 6,
+  .span-\34 \2F 8,
+  .span-\36 \2F 12,
+  .span-\38 \2F 16,
+  .span-\31 \32 \2F 24
+    width (main-width / 2 * 0.8) - (gutter-width * 0.8)
+
+  /* 13/24 */
+  .span-\31 \33 \2F 24
+    width (main-width * 13/24 * 0.8) - (gutter-width * 0.8)
+
+  /* 9/16 */
+  .span-\39 \2F 16
+    width (main-width * 9/16 * 0.8) - (gutter-width * 0.8)
+
+  /* 7/12, 14/24 */
+  .span-\37 \2F 12,
+  .span-\31 \34 \2F 24
+    width (main-width * 7/12 * 0.8) - (gutter-width * 0.8)
+
+  /* 5/8, 10/16, 15/24 */
+  .span-\35 \2F 8,
+  .span-\31 \30 \2F 16,
+  .span-\31 \35 \2F 24
+    width (main-width * 5/8 * 0.8) - (gutter-width * 0.8)
+
+  /* 2/3, 4/6, 8/12, 16/24 */
+  .span-\32 \2F 3,
+  .span-\34 \2F 6,
+  .span-\38 \2F 12,
+  .span-\31 \36 \2F 24
+    width (main-width * 2/3 * 0.8) - (gutter-width * 0.8)
+
+  /* 11/16 */
+  .span-\31 \31 \2F 16
+    width (main-width * 11/16 * 0.8) - (gutter-width * 0.8)
+
+  /* 17/24 */
+  .span-\31 \37 \2F 24
+    width (main-width * 17/24 * 0.8) - (gutter-width * 0.8)
+
+  /* 3/4, 6/8, 9/12, 12/16, 18/24 */
+  .span-\33 \2F 4,
+  .span-\36 \2F 8,
+  .span-\39 \2F 12,
+  .span-\31 \32 \2F 16,
+  .span-\31 \38 \2F 24
+    width (main-width * 3/4 * 0.8) - (gutter-width * 0.8)
+
+  /* 19/24 */
+  .span-\31 \39 \2F 24
+    width (main-width * 19/24 * 0.8) - (gutter-width * 0.8)
+
+  /* 13/16 */
+  .span-\31 \33 \2F 16
+    width (main-width * 13/16 * 0.8) - (gutter-width * 0.8)
+
+  /* 5/6, 10/12, 20/24 */
+  .span-\35 \2F 6,
+  .span-\31 \30 \2F 12,
+  .span-\32 \30 \2F 24
+    width (main-width * 5/6 * 0.8) - (gutter-width * 0.8)
+
+  /* 7/8, 14/16, 21/24 */
+  .span-\37 \2F 8,
+  .span-\31 \34 \2F 16,
+  .span-\32 \31 \2F 24
+    width (main-width * 7/8 * 0.8) - (gutter-width * 0.8)
+
+  /* 11/12, 22/24 */
+  .span-\31 \31 \2F 12,
+  .span-\32 \32 \2F 24
+    width (main-width * 11/12 * 0.8) - (gutter-width * 0.8)
+
+  /* 15/16 */
+  .span-\31 \35 \2F 16
+    width (main-width * 15/16 * 0.8) - (gutter-width * 0.8)
+
+  /* 23/24 */
+  .span-\32 \33 \2F 24
+    width (main-width * 23/24 * 0.8) - (gutter-width * 0.8)
+
+  /* 1/24 */
+  .offset-\31 \2F 24
+    margin-left (main-width / 24 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 1/16 */
+  .offset-\31 \2F 16
+    margin-left (main-width / 16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 1/12, 2/24 */
+  .offset-\31 \2F 12,
+  .offset-\32 \2F 24
+    margin-left (main-width / 12 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 1/8, 2/16, 3/24 */
+  .offset-\31 \2F 8,
+  .offset-\32 \2F 16,
+  .offset-\33 \2F 24
+    margin-left (main-width / 8 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 1/6, 2/12, 4/24 */
+  .offset-\31 \2F 6,
+  .offset-\32 \2F 12,
+  .offset-\34 \2F 24
+    margin-left (main-width / 6 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 3/16 */
+  .offset-\33 \2F 16
+    margin-left (main-width * 3/16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 5/24 */
+  .offset-\35 \2F 24
+    margin-left (main-width * 5/24 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 1/4, 2/8, 3/12, 4/16, 6/24 */
+  .offset-\31 \2F 4,
+  .offset-\32 \2F 8,
+  .offset-\33 \2F 12,
+  .offset-\34 \2F 16,
+  .offset-\36 \2F 24
+    margin-left (main-width / 4 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 7/24 */
+  .offset-\37 \2F 24
+    margin-left (main-width * 7/24 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 5/16 */
+  .offset-\35 /2F 16
+    margin-left (main-width * 5/16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 1/3, 2/6, 4/12, 8/24 */
+  .offset-\31 \2F 3,
+  .offset-\32 \2F 6,
+  .offset-\34 \2F 12,
+  .offset-\38 \2F 24
+    margin-left (main-width / 3 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 3/8, 6/16, 9/24 */
+  .offset-\33 \2F 8,
+  .offset-\36 \2F 16,
+  .offset-\39 \2F 24
+    margin-left (main-width * 3/8 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 5/12, 10/24 */
+  .offset-\35 \2F 12,
+  .offset-\31 \30 \2F 24
+    margin-left (main-width * 5/12 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 7/16 */
+  .offset-\37 \2F 16
+    margin-left (main-width * 7/16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 11/24 */
+  .offset-\31 \31 \2F 24
+    margin-left (main-width * 11/24 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 1/2, 2/4, 3/6, 4/8, 6/12, 8/16, 12/24 */
+  .offset-\31 \2F 2,
+  .offset-\32 \2F 4,
+  .offset-\33 \2F 6,
+  .offset-\34 \2F 8,
+  .offset-\36 \2F 12,
+  .offset-\38 \2F 16,
+  .offset-\31 \32 \2F 24
+    margin-left (main-width / 2 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 13/24 */
+  .offset-\31 \33 \2F 24
+    margin-left (main-width * 13/24 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 9/16 */
+  .offset-\39 \2F 16
+    margin-left (main-width * 9/16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 7/12, 14/24 */
+  .offset-\37 \2F 12,
+  .offset-\31 \34 \2F 24
+    margin-left (main-width * 7/12 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 5/8, 10/16, 15/24 */
+  .offset-\35 \2F 8,
+  .offset-\31 \30 \2F 16,
+  .offset-\31 \35 \2F 24
+    margin-left (main-width * 5/8 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 2/3, 4/6, 8/12, 16/24 */
+  .offset-\32 \2F 3,
+  .offset-\34 \2F 6,
+  .offset-\38 \2F 12,
+  .offset-\31 \36 \2F 24
+    margin-left (main-width * 2/3 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 11/16 */
+  .offset-\31 \31 \2F 16
+    margin-left (main-width * 11/16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 17/24 */
+  .offset-\31 \37 \2F 24
+    margin-left (main-width * 17/24 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 3/4, 6/8, 9/12, 12/16, 18/24 */
+  .offset-\33 \2F 4,
+  .offset-\36 \2F 8,
+  .offset-\39 \2F 12,
+  .offset-\31 \32 \2F 16,
+  .offset-\31 \38 \2F 24
+    margin-left (main-width * 3/4 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 19/24 */
+  .offset-\31 \39 \2F 24
+    margin-left (main-width * 19/24 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 13/16 */
+  .offset-\31 \33 \2F 16
+    margin-left (main-width * 13/16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 5/6, 10/12, 20/24 */
+  .offset-\35 \2F 6,
+  .offset-\31 \30 \2F 12,
+  .offset-\32 \30 \2F 24
+    margin-left (main-width * 5/6 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 7/8, 14/16, 21/24 */
+  .offset-\37 \2F 8,
+  .offset-\31 \34 \2F 16,
+  .offset-\32 \31 \2F 24
+    margin-left (main-width * 7/8 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 11/12, 22/24 */
+  .offset-\31 \31 \2F 12,
+  .offset-\32 \32 \2F 24
+    margin-left (main-width * 11/12 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 15/16 */
+  .offset-\31 \35 \2F 16
+    margin-left (main-width * 15/16 * 0.8) + (gutter-width * 0.4) !important
+
+  /* 23/24 */
+  .offset-\32 \33 \2F 24
+    margin-left (main-width * 23/24 * 0.8) + (gutter-width * 0.4) !important
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px)
+  .container
+    .column
+      &.fluid
+        width 100% !important
+        margin 2px 0 !important
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px)
+  .container
+    width (main-width * 0.5)
+    .column
+      width (main-width * 0.5) - (gutter-width * 0.5) !important
+      margin (gutter-width * 0.2) (gutter-width * 0.25) !important
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px)
+  .container
+    width 100%
+    .column
+      width 96% !important
+      margin 2px 2% !important

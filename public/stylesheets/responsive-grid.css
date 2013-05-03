@@ -1,0 +1,301 @@
+/**********************************************
+Chimera Framework
+Inspired by Bootstrap + Skeleton + Foundation
+24-column grid framework
+With additional support for 16-column grids
+**********************************************/
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container {
+    width: 768px;
+  }
+  .container .column {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .span-\31 \2F 24 {
+    width: 16px;
+  }
+  .span-\31 \2F 16 {
+    width: 32px;
+  }
+  .span-\31 \2F 12,
+  .span-\32 \2F 24 {
+    width: 48px;
+  }
+  .span-\31 \2F 8,
+  .span-\32 \2F 16,
+  .span-\33 \2F 24 {
+    width: 80px;
+  }
+  .span-\31 \2F 6,
+  .span-\32 \2F 12,
+  .span-\34 \2F 24 {
+    width: 112px;
+  }
+  .span-\33 \2F 16 {
+    width: 128px;
+  }
+  .span-\35 \2F 24 {
+    width: 144px;
+  }
+  .span-\31 \2F 4,
+  .span-\32 \2F 8,
+  .span-\33 \2F 12,
+  .span-\34 \2F 16,
+  .span-\36 \2F 24 {
+    width: 176px;
+  }
+  .span-\37 \2F 24 {
+    width: 208px;
+  }
+  .span-\35 /2F 16 {
+    width: 224px;
+  }
+  .span-\31 \2F 3,
+  .span-\32 \2F 6,
+  .span-\34 \2F 12,
+  .span-\38 \2F 24 {
+    width: 240px;
+  }
+  .span-\33 \2F 8,
+  .span-\36 \2F 16,
+  .span-\39 \2F 24 {
+    width: 272px;
+  }
+  .span-\35 \2F 12,
+  .span-\31 \30 \2F 24 {
+    width: 304px;
+  }
+  .span-\37 \2F 16 {
+    width: 320px;
+  }
+  .span-\31 \31 \2F 24 {
+    width: 336px;
+  }
+  .span-\31 \2F 2,
+  .span-\32 \2F 4,
+  .span-\33 \2F 6,
+  .span-\34 \2F 8,
+  .span-\36 \2F 12,
+  .span-\38 \2F 16,
+  .span-\31 \32 \2F 24 {
+    width: 368px;
+  }
+  .span-\31 \33 \2F 24 {
+    width: 400px;
+  }
+  .span-\39 \2F 16 {
+    width: 416px;
+  }
+  .span-\37 \2F 12,
+  .span-\31 \34 \2F 24 {
+    width: 432px;
+  }
+  .span-\35 \2F 8,
+  .span-\31 \30 \2F 16,
+  .span-\31 \35 \2F 24 {
+    width: 464px;
+  }
+  .span-\32 \2F 3,
+  .span-\34 \2F 6,
+  .span-\38 \2F 12,
+  .span-\31 \36 \2F 24 {
+    width: 496px;
+  }
+  .span-\31 \31 \2F 16 {
+    width: 512px;
+  }
+  .span-\31 \37 \2F 24 {
+    width: 528px;
+  }
+  .span-\33 \2F 4,
+  .span-\36 \2F 8,
+  .span-\39 \2F 12,
+  .span-\31 \32 \2F 16,
+  .span-\31 \38 \2F 24 {
+    width: 560px;
+  }
+  .span-\31 \39 \2F 24 {
+    width: 592px;
+  }
+  .span-\31 \33 \2F 16 {
+    width: 608px;
+  }
+  .span-\35 \2F 6,
+  .span-\31 \30 \2F 12,
+  .span-\32 \30 \2F 24 {
+    width: 624px;
+  }
+  .span-\37 \2F 8,
+  .span-\31 \34 \2F 16,
+  .span-\32 \31 \2F 24 {
+    width: 656px;
+  }
+  .span-\31 \31 \2F 12,
+  .span-\32 \32 \2F 24 {
+    width: 688px;
+  }
+  .span-\31 \35 \2F 16 {
+    width: 704px;
+  }
+  .span-\32 \33 \2F 24 {
+    width: 720px;
+  }
+  .offset-\31 \2F 24 {
+    margin-left: 40px !important;
+  }
+  .offset-\31 \2F 16 {
+    margin-left: 56px !important;
+  }
+  .offset-\31 \2F 12,
+  .offset-\32 \2F 24 {
+    margin-left: 72px !important;
+  }
+  .offset-\31 \2F 8,
+  .offset-\32 \2F 16,
+  .offset-\33 \2F 24 {
+    margin-left: 104px !important;
+  }
+  .offset-\31 \2F 6,
+  .offset-\32 \2F 12,
+  .offset-\34 \2F 24 {
+    margin-left: 136px !important;
+  }
+  .offset-\33 \2F 16 {
+    margin-left: 152px !important;
+  }
+  .offset-\35 \2F 24 {
+    margin-left: 168px !important;
+  }
+  .offset-\31 \2F 4,
+  .offset-\32 \2F 8,
+  .offset-\33 \2F 12,
+  .offset-\34 \2F 16,
+  .offset-\36 \2F 24 {
+    margin-left: 200px !important;
+  }
+  .offset-\37 \2F 24 {
+    margin-left: 232px !important;
+  }
+  .offset-\35 /2F 16 {
+    margin-left: 248px !important;
+  }
+  .offset-\31 \2F 3,
+  .offset-\32 \2F 6,
+  .offset-\34 \2F 12,
+  .offset-\38 \2F 24 {
+    margin-left: 264px !important;
+  }
+  .offset-\33 \2F 8,
+  .offset-\36 \2F 16,
+  .offset-\39 \2F 24 {
+    margin-left: 296px !important;
+  }
+  .offset-\35 \2F 12,
+  .offset-\31 \30 \2F 24 {
+    margin-left: 328px !important;
+  }
+  .offset-\37 \2F 16 {
+    margin-left: 344px !important;
+  }
+  .offset-\31 \31 \2F 24 {
+    margin-left: 360px !important;
+  }
+  .offset-\31 \2F 2,
+  .offset-\32 \2F 4,
+  .offset-\33 \2F 6,
+  .offset-\34 \2F 8,
+  .offset-\36 \2F 12,
+  .offset-\38 \2F 16,
+  .offset-\31 \32 \2F 24 {
+    margin-left: 392px !important;
+  }
+  .offset-\31 \33 \2F 24 {
+    margin-left: 424px !important;
+  }
+  .offset-\39 \2F 16 {
+    margin-left: 440px !important;
+  }
+  .offset-\37 \2F 12,
+  .offset-\31 \34 \2F 24 {
+    margin-left: 456px !important;
+  }
+  .offset-\35 \2F 8,
+  .offset-\31 \30 \2F 16,
+  .offset-\31 \35 \2F 24 {
+    margin-left: 488px !important;
+  }
+  .offset-\32 \2F 3,
+  .offset-\34 \2F 6,
+  .offset-\38 \2F 12,
+  .offset-\31 \36 \2F 24 {
+    margin-left: 520px !important;
+  }
+  .offset-\31 \31 \2F 16 {
+    margin-left: 536px !important;
+  }
+  .offset-\31 \37 \2F 24 {
+    margin-left: 552px !important;
+  }
+  .offset-\33 \2F 4,
+  .offset-\36 \2F 8,
+  .offset-\39 \2F 12,
+  .offset-\31 \32 \2F 16,
+  .offset-\31 \38 \2F 24 {
+    margin-left: 584px !important;
+  }
+  .offset-\31 \39 \2F 24 {
+    margin-left: 616px !important;
+  }
+  .offset-\31 \33 \2F 16 {
+    margin-left: 632px !important;
+  }
+  .offset-\35 \2F 6,
+  .offset-\31 \30 \2F 12,
+  .offset-\32 \30 \2F 24 {
+    margin-left: 648px !important;
+  }
+  .offset-\37 \2F 8,
+  .offset-\31 \34 \2F 16,
+  .offset-\32 \31 \2F 24 {
+    margin-left: 680px !important;
+  }
+  .offset-\31 \31 \2F 12,
+  .offset-\32 \32 \2F 24 {
+    margin-left: 712px !important;
+  }
+  .offset-\31 \35 \2F 16 {
+    margin-left: 728px !important;
+  }
+  .offset-\32 \33 \2F 24 {
+    margin-left: 744px !important;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .container .column.fluid {
+    width: 100% !important;
+    margin: 2px 0 !important;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 480px;
+  }
+  .container .column {
+    width: 470px !important;
+    margin: 4px 5px !important;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  .container {
+    width: 100%;
+  }
+  .container .column {
+    width: 96% !important;
+    margin: 2px 2% !important;
+  }
+}

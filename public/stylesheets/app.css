@@ -1,0 +1,17 @@
+/**********************************************
+Chimera Framework
+Inspired by Bootstrap + Skeleton + Foundation
+24-column grid framework
+With additional support for 16-column grids
+**********************************************/
+/**********************************************
+Preview specific CSS!
+**********************************************/
+/* Highlight the grid... */
+.show-grid {
+  background-color: #eee;
+  text-align: center;
+  border-radius: 3px;
+  min-height: 40px;
+  line-height: 40px;
+}
